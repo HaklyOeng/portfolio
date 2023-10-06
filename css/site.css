@@ -1,0 +1,178 @@
+:root {
+    /* fonts */
+    --ho-title-font: 'Bebas Neue', sans-serif;
+    --ho-subtitle-font: 'Fira Sans', sans-serif;
+    --ho-heading-font: 'Bebas Neue', sans-serif;
+    --ho-body-font: 'Roboto', sans-serif;
+
+    /* colors */
+    --ho-dark-color: #212121;
+    --ho-light-color: #deeefb;
+    --ho-background-color: rgba(250, 250, 250, 0.8);
+
+    /* text-style */
+    --ho-title-color: var(--ho-dark-color);
+    --ho-font-size: 1.2rem;
+    --ho-font-weight: 400;
+    --ho-line-height: 1.5rem;
+}
+
+/* Element Styles */
+body {
+    font-family: var(--ho-body-font);
+    font-size: var(--ho-font-size);
+    font-weight: var(--ho-font-weight);
+    line-height: var(--ho-line-height);
+    color: var(--ho-dark-color);
+    background: var(--ho-background-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--ho-heading-font);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    color: var(--ho-title-color);
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a {
+    color: var(--ho-theme-500);
+}
+
+a:hover {
+    color: var(--ho-theme-400);
+}
+
+.btn-primary {
+    --bs-btn-bg: var(--ho-theme-600);
+    --bs-btn-border-color: var(--ho-theme-600);
+    --bs-btn-hover-bg: var(--ho-theme-700);
+    --bs-btn-hover-border-color: var(--ho-theme-700);
+    --bs-btn-active-bg: var(--ho-theme-800);
+    --bs-btn-active-border-color: var(--ho-theme-800);
+  }
+
+/* #region Home section */
+#home {
+    background-image: url(/img/space_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    color: var(--ho-light-color);
+    position: relative;
+}
+
+#homeCover {
+    position: absolute;
+    -webkit-backdrop-filter: brightness(0.35) blur(5px);
+    backdrop-filter: brightness(0.35) blur(5px);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainTitle {
+    font-family: var(--ho-title-font);
+    font-size: 5rem;
+    line-height: 4rem;
+}
+
+.subTitle {
+    font-family: var(--ho-subtitle-font);
+    font-size: 1.28rem;
+    line-height: 1.1rem;
+    font-weight: 300;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+.mainLogo {
+    height: .5em;
+}
+
+/* #endregion Home section */
+
+/* #region Section Styles */
+
+    .section-page:nth-child(odd) {
+        background-color: var(--ho-theme-150);
+    }
+
+    .section-page:nth-child(even) {
+        background-color: var(--ho-theme-100);
+    }
+
+/* #endregion Section Styles */
+
+/* #region Footer */
+footer.fixed-bottom {
+    background-color: var(--ho-theme-900);
+    z-index: 2;
+}
+
+footer .card {
+    background-color: var(--ho-theme-800);
+}
+
+footer i.bi {
+    font-size: 2rem;
+    transition: color .25s;
+}
+
+footer i.bi:hover {
+    color: var(--ho-theme-core);
+}
+
+/* #endregion Footer */
+
+/* #region Breakpoint */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .mainTitle {
+        font-size: 7rem;
+        line-height: 5.5rem;
+    }
+
+    .subTitle {
+
+        font-size: 1.7rem;
+        line-height: 1.2rem;
+        letter-spacing: .18rem;
+
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    
+}
+
+/* #endregion Breakpoint */
