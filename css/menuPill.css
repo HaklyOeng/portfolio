@@ -44,6 +44,10 @@
 
 @media (min-width: 768px) {
 
+    .nav-tooltip {
+        display: none;
+    }
+
     main>section:not(#home) {
         padding-left: 160px;
         padding-left: 160px;
@@ -106,5 +110,33 @@
         width: 100vw;
         justify-content: center;
     }
+
+    #menuPill {
+        flex-direction: row;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    #menuPill .menu-lable {
+        display: none;
+    }
+
+    #menuPill .nav-link {
+        width: 35px;
+    }
+
+    #menuPill>.nav-item:nth-child(1) .icon-container {
+        border-radius: 50% 0 0 50%;        
+    }
+
+    #menuPill>.nav-item:nth-last-child(1) .icon-container {
+        border-radius:  0 50% 50% 0;        
+    }
+
+    .nav-tooltip {
+        --bs-tooltip-color : var(--ho-theme-200);
+        --bs-tooltip-opacity: 0.7;
+    }
+
 
 }
