@@ -41,9 +41,10 @@
 }
 
 /* Desktop Version @media quiry */
+
 @media (min-width: 768px) {
 
-    main>section: not(#home) {
+    main>section:not(#home) {
         padding-left: 160px;
         padding-left: 160px;
     }
@@ -95,4 +96,15 @@
         color: var(--ho-theme-200);
         padding-right: 1rem;
     }
+}
+
+/* Mobile Version */
+@media (max-width: 767.98px) {
+    #menuPillContainer {
+        top: 0;
+        height: 4rem;
+        width: 100vw;
+        justify-content: center;
+    }
+
 }
