@@ -96,12 +96,14 @@ a:hover {
     font-size: 1.28rem;
     line-height: 1.1rem;
     font-weight: 300;
-    letter-spacing: .1rem;
-    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-transform: uppercase;    
+    
 }
 
 .mainLogo {
-    height: .5em;
+    height: .77em;
+    padding-left: 6rem;
 }
 
 /* #endregion Home section */
@@ -189,15 +191,70 @@ footer i.bi:hover {
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .mainTitle {
+        font-size: 8rem;
+        line-height: 5.7rem;
+    }
+
+    .subTitle {
+
+        font-size: 1.9rem;
+        line-height: 1.7rem;
+        letter-spacing: .18rem;
+
+    }
+}
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    .mainTitle {
+        font-size: 8rem;
+        line-height: 5.7rem;
+    }
+
+    .subTitle {
+
+        font-size: 1.9rem;
+        line-height: 1.7rem;
+        letter-spacing: .18rem;
+
+    }
+}
 
 /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .mainTitle {
+        font-size: 10rem;
+        line-height: 7rem;
+        letter-spacing: .6rem;
+    }
+
+    .subTitle {
+
+        font-size: 2.4rem;
+        line-height: 2.3rem;
+        letter-spacing: .16rem;
+
+    }
+}
+
 
 /* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {}
+@media (min-width: 1400px) {
+    .mainTitle {
+        font-size: 12rem;
+        line-height: 8.5rem;
+        letter-spacing: .2rem;
+    }
+
+    .subTitle {
+
+        font-size: 2.7rem;
+        line-height: 2.3rem;
+        letter-spacing: .16rem;
+
+    }
+}
 
 /* #endregion Breakpoint */

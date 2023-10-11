@@ -21,7 +21,7 @@
     display: flex;
     align-items: flex-end;
 
-    transition: opacity 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
 .hc-card:before {
@@ -55,7 +55,7 @@
     transform: translateY(30px);
     opacity: 0;
 
-    transition: tranform 0.3s ease-in-out, opacity  0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, opacity  0.3s ease-in-out;
 }
 
 .hc-card .hc-content p {
