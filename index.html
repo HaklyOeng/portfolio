@@ -29,7 +29,7 @@
     <link rel="shortcut icon" href="/img/Logo to use/Black favicon/favicon.ico" type="image/x-icon" />
 </head>
 
-<body data-ho-theme="cyan">
+<body data-ho-theme="cyan" onload="fetchBlogData()">
     <div id="menuPillContainer" class="navbar navbar-dark">
         <nav id="menuPill" class="navbar-nav text-light">
             <div class="nav-item">
@@ -107,7 +107,7 @@
                     </div>
                     <div class="mainTitle">
                         <span>
-                            <img class="mainLogo" src="/img/Logo to use/4.svg" />eng
+                            <img class="mainLogo" src="#" />eng
                         </span>
                     </div>
                     <div class="subTitle">Software Developer</div>
@@ -120,7 +120,7 @@
                 <h2 class="display-1 mb-5">About</h2>
                 <a href="https://storyset.com/people" target="_blank" data-bs-toggle="tooltip"
                     data-bs-title="People illustrations by Storyset" data-bs-placement="right">
-                    <img src="/img/Logo to use/Questions-bro.svg" height="250" class="p-3" />
+                    <img src="#" height="250" class="p-3" />
                 </a>
                 <div class="row">
                     <div class="col-lg-8 offset-lg-2">
@@ -398,7 +398,8 @@
                                     <p>
                                         A classic FizzBuzz challenges.
                                     </p>
-                                    <a href="https://spontaneous-wisp-3392e2.netlify.app" class="btn btn-primary" target="-blank">Learn More</a>
+                                    <a href="https://spontaneous-wisp-3392e2.netlify.app" class="btn btn-primary"
+                                        target="-blank">Learn More</a>
                                 </div>
                             </div>
                         </div>
@@ -420,154 +421,15 @@
                         </div>
                     </div>
         </section>
-        <section id="blog" class="section-page">
+        <section id="blogs" class="section-page">
             <div class="container">
                 <h2 class="text-center display-1 mb-5">Stuff I Write About</h2>
                 <p>I write on my blog on a regular basis. I think it's important to share your knowledge with others,
                     and I find that writing about my code helps me to gain a better understanding as well.
                 </p>
-                <div id="blog">
-                    <article class="card mb-4 blog-article">
-                        <div class="row g-0 blog-row">
-                            <div class="col-lg-4 blog-header">
-                                <a href="#" class="blog-image-link">
-                                    <img src="/img/Blog/Blog_FlyingGirl.jpg" class="blog-image" />
-                                </a>
-                                <div class="blog-date">
-                                    <div class="blog-day">11</div>
-                                    <div class="blog-month">January</div>
-                                </div>
-                            </div>
-                            <div class="col-lg-8">
-                                <div class="card-body h-100 d-flex flex-column justify-content-around">
-                                    <h2 class="card-title">Make SQL Queries Fly</h2>
-                                    <p class="card-text line-clamp">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt error sunt,
-                                        quas dolores blanditiis tempora odit id praesentium quasi quidem ipsa molestiae
-                                        expedita minima temporibus earum, architecto totam ab ratione.
-                                        Inventore ducimus quaerat et amet dignissimos eius. Provident adipisci
-                                        cupiditate dignissimos quia cumque modi est impedit alias. Optio dolorum
-                                        delectus, nobis sequi quo ipsam ea possimus, facilis, eveniet fugit voluptatem!
-                                        Iusto, tenetur necessitatibus autem quisquam rerum qui quaerat saepe quo
-                                        reiciendis architecto nihil fugiat? Aut porro blanditiis consequatur iusto
-                                        placeat quidem, maxime eveniet iure commodi libero ipsum ab odit dignissimos?
-                                    </p>
-                                    <div>
-                                        <a href="#" class="btn btn-primary">Read More</a>
-                                    </div>
-                                    <p class="card-text">
-                                        <small class="text-muted"> Published 3 days ago</small>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="card mb-4 blog-article">
-                        <div class="row g-0 blog-row">
-                            <div class="col-lg-4 blog-header">
-                                <a href="#" class="blog-image-link">
-                                    <img src="/img/Blog/Blog_Database.jpg" class="blog-image" />
-                                </a>
-                                <div class="blog-date">
-                                    <div class="blog-day">11</div>
-                                    <div class="blog-month">January</div>
-                                </div>
-                            </div>
-                            <div class="col-lg-8">
-                                <div class="card-body h-100 d-flex flex-column justify-content-around">
-                                    <h2 class="card-title">Storing Image in data base</h2>
-                                    <p class="card-text line-clamp">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt error sunt,
-                                        quas dolores blanditiis tempora odit id praesentium quasi quidem ipsa molestiae
-                                        expedita minima temporibus earum, architecto totam ab ratione.
-                                        Inventore ducimus quaerat et amet dignissimos eius. Provident adipisci
-                                        cupiditate dignissimos quia cumque modi est impedit alias. Optio dolorum
-                                        delectus, nobis sequi quo ipsam ea possimus, facilis, eveniet fugit voluptatem!
-                                        Iusto, tenetur necessitatibus autem quisquam rerum qui quaerat saepe quo
-                                        reiciendis architecto nihil fugiat? Aut porro blanditiis consequatur iusto
-                                        placeat quidem, maxime eveniet iure commodi libero ipsum ab odit dignissimos?
-                                    </p>
-                                    <div>
-                                        <a href="#" class="btn btn-primary">Read More</a>
-                                    </div>
-                                    <p class="card-text">
-                                        <small class="text-muted"> Published 3 days ago</small>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="card mb-4 blog-article">
-                        <div class="row g-0 blog-row">
-                            <div class="col-lg-4 blog-header">
-                                <a href="#" class="blog-image-link">
-                                    <img src="/img/Blog/Blog_DecisionRoad.jpg" class="blog-image" />
-                                </a>
-                                <div class="blog-date">
-                                    <div class="blog-day">11</div>
-                                    <div class="blog-month">January</div>
-                                </div>
-                            </div>
-                            <div class="col-lg-8">
-                                <div class="card-body h-100 d-flex flex-column justify-content-around">
-                                    <h2 class="card-title">SPA vs MPA Frameworks</h2>
-                                    <p class="card-text line-clamp">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt error sunt,
-                                        quas dolores blanditiis tempora odit id praesentium quasi quidem ipsa molestiae
-                                        expedita minima temporibus earum, architecto totam ab ratione.
-                                        Inventore ducimus quaerat et amet dignissimos eius. Provident adipisci
-                                        cupiditate dignissimos quia cumque modi est impedit alias. Optio dolorum
-                                        delectus, nobis sequi quo ipsam ea possimus, facilis, eveniet fugit voluptatem!
-                                        Iusto, tenetur necessitatibus autem quisquam rerum qui quaerat saepe quo
-                                        reiciendis architecto nihil fugiat? Aut porro blanditiis consequatur iusto
-                                        placeat quidem, maxime eveniet iure commodi libero ipsum ab odit dignissimos?
-                                    </p>
-                                    <div>
-                                        <a href="#" class="btn btn-primary">Read More</a>
-                                    </div>
-                                    <p class="card-text">
-                                        <small class="text-muted"> Published 3 days ago</small>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="card mb-4 blog-article">
-                        <div class="row g-0 blog-row">
-                            <div class="col-lg-4 blog-header">
-                                <a href="#" class="blog-image-link">
-                                    <img src="/img/Blog/Blog_CodeTag.jpg" class="blog-image" />
-                                </a>
-                                <div class="blog-date">
-                                    <div class="blog-day">11</div>
-                                    <div class="blog-month">January</div>
-                                </div>
-                            </div>
-                            <div class="col-lg-8">
-                                <div class="card-body h-100 d-flex flex-column justify-content-around">
-                                    <h2 class="card-title">Code Tag</h2>
-                                    <p class="card-text line-clamp">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt error sunt,
-                                        quas dolores blanditiis tempora odit id praesentium quasi quidem ipsa molestiae
-                                        expedita minima temporibus earum, architecto totam ab ratione.
-                                        Inventore ducimus quaerat et amet dignissimos eius. Provident adipisci
-                                        cupiditate dignissimos quia cumque modi est impedit alias. Optio dolorum
-                                        delectus, nobis sequi quo ipsam ea possimus, facilis, eveniet fugit voluptatem!
-                                        Iusto, tenetur necessitatibus autem quisquam rerum qui quaerat saepe quo
-                                        reiciendis architecto nihil fugiat? Aut porro blanditiis consequatur iusto
-                                        placeat quidem, maxime eveniet iure commodi libero ipsum ab odit dignissimos?
-                                    </p>
-                                    <div>
-                                        <a href="#" class="btn btn-primary">Read More</a>
-                                    </div>
-                                    <p class="card-text">
-                                        <small class="text-muted"> Published 3 days ago</small>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
+                <div id="blog">                    
                 </div>
+
             </div>
         </section>
         <section id="contact" class="section-page">
@@ -647,6 +509,35 @@
 
         </div>
     </footer>
+
+    <template id="blog-template">
+        <article class="card mb-4 blog-article">
+            <div class="row g-0 blog-row">
+                <div class="col-lg-4 blog-header">
+                    <a data-blog="imageLink" href="" class="blog-image-link"></a>
+                    <div class="blog-date">
+                        <div class="blog-day" data-blog="day"></div>
+                        <div class="blog-month" data-blog="month"></div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="card-body h-100 d-flex flex-column justify-content-around">
+                        <h2 class="card-title" data-blog="title"></h2>
+                        <p class="card-text line-clamp" data-blog="content">
+                            <!--Content-->
+                        </p>
+                        <div>
+                            <a href="" class="btn btn-primary" data-blog="readMoreLink">Read More</a>
+                        </div>
+                        <p class="card-text">
+                            <small class="text-muted" data-blog="publishedDate">
+                                <!--Publish Date-->></small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </template>
 
     <!--#region MODALS -->
     <!-- Bug Tracker Modal -->
@@ -975,6 +866,7 @@
         const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
         const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
     </script>
+    <script src="/js/blogApi.js"></script>
 </body>
 
 </html>
